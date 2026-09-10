@@ -1,0 +1,19 @@
+name: easy-xianyu-publish-free
+display_name: 免费闲鱼商品上架
+version: 1.0.0
+description: 免费免第三方 API Key，使用已登录 Easy WebBridge 浏览器填写闲鱼商品发布草稿。
+category: ecommerce
+author: xxjrq
+tags:
+  - xianyu
+  - ecommerce
+  - listing
+  - easy-webbridge
+  - free
+  - no-api-key
+runtime:
+  name: easy-webbridge
+  endpoint: http://127.0.0.1:17777
+  prerequisite: Install Easy WebBridge from https://github.com/xxjrq/easy-webbridge; fallback https://gitee.com/xxjrq/easy-webbridge
+icon: icon-512.png
+self_test: node scripts/self-test.mjs
