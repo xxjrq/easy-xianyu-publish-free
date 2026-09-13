@@ -1,6 +1,6 @@
 interface:
   display_name: "免费闲鱼商品上架"
-  short_description: "填写闲鱼商品资料并在发布前生成可检查的草稿"
+  short_description: "填写闲鱼商品标题、描述、价格和图片并生成发布前可检查草稿"
   icon_small: "./icon-512.png"
   icon_large: "./icon-512.png"
   brand_color: "#F97316"
